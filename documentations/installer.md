@@ -111,9 +111,9 @@ A cette etape nous allons installer les dépendences de composer afin de pourvoi
 -   Pour être sur que vous êtes bien dans le dossier du projet vérifier si vous allez trouver les fichiers composer.json, .env.example ainsi que les dossiers telsque app, core, resources, routes, etc.
 
 -   Maintenant que nous avons bien vérifier et êtes réellement dans le dossier racine du projet vous allez taper la commande suivant afin d'installer les dépendences dont notre projet a besoin : 
-
+```
 >   composer install
-
+```
 
 ###### Si vous avez des erreurs de versions de php alors supprimer le fichier composer.lock. Faites attention ne supprimer le fichier composer.json, mais plutot le fichier composer.lock. Puis relancer la meme commande.
 
