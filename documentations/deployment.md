@@ -9,10 +9,10 @@
 
 ## EXIGENCES 
 
-Creer un compte utilisateur admin propre à ce projet
-```
-Rappelle cet utilisateurs doit être différents de l'utilisateur d'accès au cpanel
-```
+-   Creer un compte utilisateur admin propre à ce projet
+
+-   Rappelle cet utilisateurs doit être différents de l'utilisateur d'accès au cpanel
+
 
 Se rappeler de définir des restrictions d'accès au fichiers sensibles du projet 
 
