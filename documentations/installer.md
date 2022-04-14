@@ -5,13 +5,13 @@ Dans ce guide je vous guiderai a vous approprier proprement ce projet.
 
 Voici le plan :
 
-    -   Téléchargement du répositorie
+-   Téléchargement du répositorie
 
-    -   Installation de composer
+-   Installation de composer
     
-    -   Local configuration
+-   Local configuration
     
-    -   Internet configuration
+-   Internet configuration
 
 ## Téléchargement du répositorie
 
@@ -21,13 +21,13 @@ De ce fait il y a plusieurs moyens afin de le réaliser à savoir :
 
 ### OPTION 1 : git clone
 La premiere option est de cloner le répositorie. Tout simplement très facile, pas besoin de se déranger.
-`
+```
 cd <worspace_directory>
 
 git init
 
 git clone <repository_https_url>
-`
+```
 ### OPTION 2 : git remote
 La deuxième option est d'établir une connexion avec le repository distant afin d'accéder au contenu de celui pour enfin télécharger les données du répositorie et tout ceci dans le dossier de travail de votre choix.
 
@@ -36,7 +36,7 @@ La deuxième option est d'établir une connexion avec le repository distant afin
 #### Pour le faire on procède de deux manieres un peu similaire
 
 ##### ASTUCE 1 : git fetch and merge
-`
+```
 cd <worspace_directory>
 
 mkdir <project_name>
@@ -50,10 +50,10 @@ git remote add origin <repository_https_url>
 git fetch origin <branch_name>
 
 git merge origin/<branch_name> 
-`
+```
 
 ##### ASTUCE 1 : git fetch and merge
-`
+```
 cd <worspace_directory>
 
 mkdir <project_name>
@@ -67,10 +67,10 @@ git remote add origin <repository_https_url>
 git fetch origin <branch_name>
 
 git merge origin/<branch_name> 
-`
+```
 
 ##### ASTUCE 2 : git fetch and merge
-`
+```
 cd <worspace_directory>
 
 mkdir <project_name>
@@ -82,19 +82,19 @@ git init
 git remote add origin <repository_https_url>
 
 git pull origin <branch_name>
-`
+```
 
 
 ### OPTION 3 : Download the zip file on the web interface
 La derniere option et l'une des plus facile est de d'accéder à la page web du répository and téléchager le fichier zip de tout le projet.
 
-`
+```
 Go into zip file <directory>
 
 unzip the zip file
 
 you will see a directory name exactly like your zip file
-`
+```
 
 ##### NB: Feel free to choose whatever of those above options with which you will be conftable to done it 
 
@@ -112,9 +112,9 @@ A cette etape nous allons installer les dépendences de composer afin de pourvoi
 
     -   Maintenant que nous avons bien vérifier et êtes réellement dans le dossier racine du projet vous allez taper la commande suivant afin d'installer les dépendences dont notre projet a besoin : 
 
-`
+```
 composer install
-`
+```
 
 ###### Si vous avez des erreurs de versions de php alors supprimer le fichier composer.lock. Faites attention ne supprimer le fichier composer.json, mais plutot le fichier composer.lock. Puis relancer la meme commande.
 
@@ -128,8 +128,8 @@ Dans ce chapitre nous allons configurer certain fichier clé afin de pouvoir com
 
 Nous allons commencer avec le fichier .env : 
 
-`
+```
 cp .env.example .env
-`
+```
 
 Une fois la commande exécuter nous allons configurer le fichier .env. Le fichier .env contient toutes les informations clé d'execution de notre projet
