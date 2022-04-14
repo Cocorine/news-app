@@ -104,13 +104,13 @@ you will see a directory name exactly like your zip file
 
 A cette etape nous allons installer les dépendences de composer afin de pourvoir compiler notre application. De ce fait :
 
-    -   il faudra ouvrir votre invite de commande (Terminale) 
+-   il faudra ouvrir votre invite de commande (Terminale) 
 
-    -   Parcourir les répertoires afin d'accéder au dossier racine de notre projet
+-   Parcourir les répertoires afin d'accéder au dossier racine de notre projet
     
-    -   Pour être sur que vous êtes bien dans le dossier du projet vérifier si vous allez trouver les fichiers composer.json, .env.example ainsi que les dossiers telsque app, core, resources, routes, etc.
+-   Pour être sur que vous êtes bien dans le dossier du projet vérifier si vous allez trouver les fichiers composer.json, .env.example ainsi que les dossiers telsque app, core, resources, routes, etc.
 
-    -   Maintenant que nous avons bien vérifier et êtes réellement dans le dossier racine du projet vous allez taper la commande suivant afin d'installer les dépendences dont notre projet a besoin : 
+-   Maintenant que nous avons bien vérifier et êtes réellement dans le dossier racine du projet vous allez taper la commande suivant afin d'installer les dépendences dont notre projet a besoin : 
 
 >   composer install
 
