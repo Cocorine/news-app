@@ -31,9 +31,9 @@ git clone <repository_https_url>
 ### OPTION 2 : git remote
 La deuxième option est d'établir une connexion avec le repository distant afin d'accéder au contenu de celui pour enfin télécharger les données du répositorie et tout ceci dans le dossier de travail de votre choix.
 
-##### NB : Cette methode est souvent utilisé par les développeurs qui ont des expériences dans le domaine
+###### NB : Cette methode est souvent utilisé par les développeurs qui ont des expériences dans le domaine
 
-#### Pour le faire on procède de deux manieres un peu similaire
+Pour le faire on procède de deux manieres un peu similaire
 
 ##### ASTUCE 1 : git fetch and merge
 ```
