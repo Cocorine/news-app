@@ -96,7 +96,7 @@ unzip the zip file
 you will see a directory name exactly like your zip file
 ```
 
-##### NB: Feel free to choose whatever of those above options with which you will be conftable to done it 
+###### NB NB: Feel free to choose whatever of those above options with which you will be conftable to done it 
 
 
 
@@ -112,9 +112,8 @@ A cette etape nous allons installer les dépendences de composer afin de pourvoi
 
     -   Maintenant que nous avons bien vérifier et êtes réellement dans le dossier racine du projet vous allez taper la commande suivant afin d'installer les dépendences dont notre projet a besoin : 
 
-```
-composer install
-```
+>   composer install
+
 
 ###### Si vous avez des erreurs de versions de php alors supprimer le fichier composer.lock. Faites attention ne supprimer le fichier composer.json, mais plutot le fichier composer.lock. Puis relancer la meme commande.
 
